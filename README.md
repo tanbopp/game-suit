@@ -14,7 +14,7 @@ Selamat datang di "Game Suit Lawan Komputer"! Ini adalah permainan sederhana bat
 
 ## Cara Bermain
 
-1. Buka [Game Suit Lawan Komputer](https://example.com/game-suit-lawan-komputer) (ganti dengan URL game yang sebenarnya).
+1. Buka [Game Suit Lawan Komputer](https://tanbopp.github.io/game-suit/) (ganti dengan URL game yang sebenarnya).
 2. Pilih tanganmu dengan mengklik salah satu tombol: "Batu", "Gunting", atau "Kertas".
 3. Hasil permainan akan ditampilkan di bawah tombol.
 
