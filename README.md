@@ -2,7 +2,6 @@
 
 Selamat datang di "Game Suit Lawan Komputer"! Ini adalah permainan sederhana batu-gunting-kertas (suit) yang kamu mainkan melawan komputer. Bersiaplah untuk bermain dan rasakan serunya menantang komputer dalam permainan yang klasik ini.
 
-![Game Screenshot](screenshot.png)
 
 ## Aturan Permainan
 
