@@ -1,11 +1,11 @@
 function play(guaSuit) {
     const suit = ['batu', 'gunting', 'kertas'];
     const komputerSuit = suit[Math.floor(Math.random() * 3)];
-    const result = checkWinner(guaSuit, komputerSuit);
-    displayResult(guaSuit, komputerSuit, result);
+    const hasil = cekPemenang(guaSuit, komputerSuit);
+    displayhasil(guaSuit, komputerSuit, hasil);
 }
 
-function checkWinner(gua, komputer) {
+function cekPemenang(gua, komputer) {
     if (gua === komputer) {
         return 'Seri! &#x1F914;';
     }
@@ -20,12 +20,12 @@ function checkWinner(gua, komputer) {
     }
 }
 
-function displayResult(gua, komputer, result) {
-    const resultElement = document.getElementById('result');
-    resultElement.innerHTML = `
+function displayhasil(gua, komputer, hasil) {
+    const hasilElement = document.getElementById('hasil');
+    hasilElement.innerHTML = `
         Kamu memilih: ${gua} <span class="emoji">${getEmoji(gua)}</span><br>
         Komputer memilih: ${komputer} <span class="emoji">${getEmoji(komputer)}</span><br>
-        Hasil: ${result}
+        Hasil: ${hasil}
     `;
 
     // Animasi
